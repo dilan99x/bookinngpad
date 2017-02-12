@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>bookingpad</artifactId>
+        <groupId>com.candela.bookingpad</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>boot</artifactId>
+
+    <dependencies>
+        <!--All the module dependencies need to be declared here-->
+        <dependency>
+            <groupId>com.candela.bookingpad</groupId>
+            <artifactId>activityops</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.candela.bookingpad</groupId>
+            <artifactId>hotelops</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.candela.bookingpad</groupId>
+            <artifactId>security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.candela.bookingpad</groupId>
+            <artifactId>entitties</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.candela.bookingpad</groupId>
+            <artifactId>framework</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.candela.bookingpad</groupId>
+            <artifactId>commonops</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
