@@ -11,7 +11,6 @@
         <module>activityops</module>
         <module>boot</module>
         <module>hotelops</module>
-        <module>security</module>
         <module>entitties</module>
         <module>framework</module>
         <module>commonops</module>
